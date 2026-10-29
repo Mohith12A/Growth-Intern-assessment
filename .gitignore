@@ -1,0 +1,32 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+backend/.env
+apps/web/.env.local
+
+# Dependencies and build output
+node_modules/
+**/node_modules/
+**/dist/
+coverage/
+*.tsbuildinfo
+
+# Tool caches and local logs
+.vite/
+**/.vite/
+.vercel/
+.netlify/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local editor and OS metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
