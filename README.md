@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NxtWave AI Project Arena
 
 MVP foundation for the public event website and the secured organizer API. MongoDB is the system of record. Google Sheets and email are represented by durable integration outbox jobs; connect approved credentials and n8n workflows before sending data externally.
@@ -29,3 +30,6 @@ Event date/time, eligibility rules, official prizes, milestone thresholds, point
 ## Spline hero scene
 
 The hero includes the Spline Viewer module and a neon CSS fallback. To activate your 3D scene, export it from Spline, set `VITE_SPLINE_SCENE_URL` in the project-root `.env` to the exported `.splinecode` URL, then restart Vite. The placeholder URL `not-exported-yet` is intentionally not used because it is not a valid exported scene.
+=======
+# Growth-Intern-assessment
+>>>>>>> 398ee863a8ad5e6778cdbff91d4034fba1842b4e
